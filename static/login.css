@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../static/imagenes/imagen-fondo-2.avif);
+    opacity: 2.0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 97%;
+    height: 600px;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.login{
+    background-color: #fa9434;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+}
+
+.h2{
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.h3{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px 15px;
+    width: 85%;
+}
+
+.container-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 90px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px 15px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.paragraph{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}

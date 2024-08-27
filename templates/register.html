@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fut-Gol</title>
+    <link rel="stylesheet" href="../static/login.css">
+</head>
+
+<body>
+    <section class="section">
+        <form class="login" method="POST" action="{{ url_for('register') }}">
+            <h2 class="h2">Fut-Gol</h2>
+            <div class="container-imagen">
+                <img class="imagen" src="../static/imagenes/canal-de-futbol.png" alt="">
+            </div>
+            <h3 class="h3">Registrarse</h3>
+            <div class="container-input">
+                <input class="input" type="text" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="container-input">
+                <input class="input" type="password" id="contraseña" name="contraseña" placeholder="Password" required>
+            </div>
+            <div class="container-button">
+                <button class="button" type="submit">Registrarse</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
